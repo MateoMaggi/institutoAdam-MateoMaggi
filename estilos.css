@@ -128,7 +128,11 @@ body{
 background-color: rgba(255, 255, 255, 0.411);
 height:1800px;
 margin-top:130px;
-
+transition:0.5s;
+}
+.index__container:hover{
+background-color: rgba(255, 255, 255);
+transition:0.5s;
 }
 
 .index__container h2{
@@ -233,6 +237,16 @@ gap:10px;
     }
 
 
+}
+
+.titulo2-index{
+
+    transition:.5s;
+}
+.titulo2-index:hover{
+    color:rgb(106, 23, 23);
+    font-size: 30px;
+    transition:.5s;
 }
 /*PIE DE PAGINA*/
 
